@@ -12,6 +12,7 @@ public class ConnectionTest {
 	public void testConnection() throws Exception {
 		Connection conn = JDBCUtils.getConnection();
 		System.out.println(conn);
+		System.out.println("test push");
 	}
 	
 }
